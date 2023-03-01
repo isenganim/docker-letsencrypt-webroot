@@ -1,4 +1,4 @@
-FROM certbot/certbot:v1.3.0
+FROM certbot/certbot:latest
 MAINTAINER vdhpieter <vdhpieter@outlook.com>
 
 RUN apk update && apk add docker bash coreutils grep
